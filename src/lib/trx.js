@@ -3,7 +3,7 @@ import utils from 'utils';
 import {keccak256, toUtf8Bytes, recoverAddress, SigningKey} from 'utils/ethersUtils';
 import {ADDRESS_PREFIX} from 'utils/address';
 import Validator from "../paramValidator";
-import injectpromise from 'injectpromise';
+import injectpromise from 'lib/injectpromise';
 
 const TRX_MESSAGE_HEADER = '\x19TRON Signed Message:\n32';
 // it should be: '\x15TRON Signed Message:\n32';

@@ -1,7 +1,7 @@
 import TronWeb from 'index';
 import utils from 'utils';
 import Method from './method';
-import injectpromise from 'injectpromise';
+import injectpromise from 'lib/injectpromise';
 
 export default class Contract {
     constructor(tronWeb = false, abi = [], address = false) {

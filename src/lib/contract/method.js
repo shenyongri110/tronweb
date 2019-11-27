@@ -1,6 +1,6 @@
 import utils from 'utils';
 import {ADDRESS_PREFIX_REGEX} from 'utils/address';
-import injectpromise from 'injectpromise';
+import injectpromise from 'lib/injectpromise';
 
 const getFunctionSelector = abi => {
     return abi.name + '(' + getParamTypes(abi.inputs || []).join(',') + ')';

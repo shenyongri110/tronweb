@@ -2,7 +2,7 @@ import TronWeb from 'index';
 import utils from 'utils';
 import providers from "./providers";
 import querystring from "querystring";
-import injectpromise from 'injectpromise';
+import injectpromise from 'lib/injectpromise';
 
 export default class Event {
 

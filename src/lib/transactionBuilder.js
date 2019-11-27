@@ -3,7 +3,7 @@ import utils from 'utils';
 import {AbiCoder} from 'utils/ethersUtils';
 import Validator from 'paramValidator';
 import {ADDRESS_PREFIX_REGEX} from 'utils/address';
-import injectpromise from 'injectpromise';
+import injectpromise from 'lib/injectpromise';
 
 let self;
 

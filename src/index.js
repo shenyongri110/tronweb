@@ -4,7 +4,7 @@ import BigNumber from 'bignumber.js';
 import EventEmitter from 'eventemitter3';
 import {version} from '../package.json';
 import semver from 'semver';
-import injectpromise from 'injectpromise';
+import injectpromise from 'lib/injectpromise';
 
 import TransactionBuilder from 'lib/transactionBuilder';
 import Trx from 'lib/trx';
